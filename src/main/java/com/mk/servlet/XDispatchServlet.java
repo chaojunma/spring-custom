@@ -25,7 +25,7 @@ public class XDispatchServlet extends HttpServlet {
     // 保存所有配置信息
     Properties p = new Properties();
 
-    // 保存所有扫描到的雷鸣
+    // 保存所有扫描到的类名
     private List<String> classNames = new ArrayList<String>();
 
     // 核心IOC容器，保存所有初始化的bean
